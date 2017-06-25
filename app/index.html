@@ -6,28 +6,26 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/css/uikit.min.css" rel="stylesheet" />
     </head>
     <body>
-
-        <div class="uk-section">
-          <div class="uk-container">
-            <h1 class="uk-heading-divider">
-              Scan
-            </h1>
-          </div>
-        </div>
-        <div class="uk-section">
-          <div class="uk-container">
-            <h1 class="uk-heading-divider">
-              Create New
-            </h1>
-          </div>
-        </div>
-        <div class="uk-section">
-          <div class="uk-container">
-            <h1 class="uk-heading-divider">
-              Edit Existing
-            </h1>
-          </div>
-        </div>
+        <ul uk-accordion>
+            <li class="uk-open">
+                <h3 class="uk-accordion-title">Scan</h3>
+                <div class="uk-accordion-content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+            </li>
+            <li>
+                <h3 class="uk-accordion-title">Add New</h3>
+                <div class="uk-accordion-content">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                </div>
+            </li>
+            <li>
+                <h3 class="uk-accordion-title">Edit Existing</h3>
+                <div class="uk-accordion-content">
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                </div>
+            </li>
+        </ul>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/2.27.4/js/uikit.min.js"></script>
     </body>
